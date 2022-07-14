@@ -2,7 +2,7 @@
 
 <h3>Apresentação do Projeto</h3>
 
-<img src="../src/assets/readme.gif" alt="gif do projeto" />
+<img src="./src/assets/readme.gif" alt="gif do projeto" />
 
 <h3>Descrição</h3>
 
@@ -43,4 +43,4 @@ $ yarn dev
 
 <h3>Link de deploy da aplicação</h3>
 
-<a href="https://ui-clone-ps-store.vercel.app/" target="_blank">Link</a>
+<a href="https://guisantanaa.github.io/layout-maeztra/" target="_blank">Link</a>
