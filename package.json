@@ -1,0 +1,29 @@
+{
+  "name": "layout-maeztra",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "openmobile": "node ./node_modules/openmobile/ip.js"
+  },
+  "dependencies": {
+    "@types/react-slick": "^0.23.10",
+    "@types/slick-carousel": "^1.6.37",
+    "openmobile": "^1.0.0",
+    "phosphor-react": "^1.4.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-slick": "^0.29.0",
+    "sass": "^1.53.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.9"
+  }
+}
