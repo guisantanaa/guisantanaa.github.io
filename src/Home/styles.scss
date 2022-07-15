@@ -398,6 +398,12 @@ main {
     .home_new_collection {
       display: flow-root;
       margin-top: 1rem;
+
+      .collection_text {
+        p {
+          width: auto;
+        }
+      }
       
 
       .colection_desktop {
@@ -407,12 +413,9 @@ main {
       .colection_mobile {
         justify-content: center;
         margin: 0 auto;
-        margin-top: 3rem;
+        margin-top: 5rem;
         display: block !important;
-
-        img {
-          width: 26rem;
-        }
+        width: 25rem;
       }
     }
   }
