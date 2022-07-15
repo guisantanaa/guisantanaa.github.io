@@ -7,13 +7,12 @@ export default function Popup() {
   const [closeElement, setCloseElement] = useState(true);
   const closeOrHide = () => setCloseElement(false);
 
+  closeElement === false ? document.body.classList.add("removeModal") : null;
+
   return (
     <div className="popup_modal">
       <div className="close_modal">
         <button onClick={closeOrHide}>FECHAR</button>
-        {closeElement === false
-          ? document.body.classList.add("removeModal")
-          : null}
       </div>
 
       <div className="content_modal">
