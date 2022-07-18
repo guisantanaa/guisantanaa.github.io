@@ -380,18 +380,20 @@ main {
                 }
               }
             }
+            
+            button {
+              display: flex;
+              text-align: center;
+              justify-content: center;
+              align-items: center;
+              width: 20.5rem !important;
+              height: 2.6rem !important;
+              margin: 0 auto;
+              margin-top: 1rem;
+            }
           }
         }
 
-        button {
-          display: flex;
-          text-align: center;
-          justify-content: center;
-          align-items: center;
-          width: 20.5rem !important;
-          height: 2.6rem !important;
-          margin: 0 auto;
-        }
       }
     }
 
@@ -416,6 +418,27 @@ main {
         margin-top: 5rem;
         display: block !important;
         width: 25rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .home_shelv_carousel {
+      .shelv_products {
+        ul {
+          li {
+            margin: 0 5rem;
+
+            img {
+              width: 95%;
+              height: auto;
+            }
+            
+            button {
+              width: 19rem !important;
+            }
+          }
+        }
       }
     }
   }

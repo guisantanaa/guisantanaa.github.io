@@ -261,9 +261,9 @@ export default function Home() {
                       and a flounce hem.
                     </p>
                   </div>
-
-                  <button type="submit">Adicionar</button>
                 </div>
+
+                <button type="submit">Adicionar</button>
               </li>
 
               <li>
