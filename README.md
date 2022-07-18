@@ -43,4 +43,4 @@ $ yarn dev
 
 <h3>Link de deploy da aplicação</h3>
 
-<a href="https://layout-maeztra-chs7itb3r-guisantanaa.vercel.app/" target="_blank">Link</a>
+<a href="https://layout-maeztra.vercel.app/" target="_blank">Link</a>
